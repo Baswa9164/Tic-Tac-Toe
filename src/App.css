@@ -1,0 +1,77 @@
+.header{
+  text-align: center;
+  color:cornflowerblue;
+}
+
+
+
+.Boxgrid{
+  justify-content: center;
+  align-content: center;
+  display: grid;
+   grid-template-columns: repeat(3,150px);
+   grid-template-rows: repeat(3,150px);
+   grid-auto-flow: row;
+   grid-template-areas:
+     ". . ."
+     ". . ."
+     ". . ."; 
+}
+.boxgrid{
+  size: 100%;
+  display: grid;
+   grid-template-columns: repeat(3,50px);
+   grid-template-rows: repeat(3,50px);
+   grid-auto-flow: row;
+   grid-template-areas:
+     ". . ."
+     ". . ."
+     ". . ."; 
+}
+.item { 
+   border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.item1 { 
+  border: 1px solid rgba(0, 0, 0, 0.8);
+ font-size: 20px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+
+
+
+.item-value{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.final-winner{
+  justify-content: center;
+  width:50%;
+  margin-left:25%;
+padding-top: 55px;
+  height: 300px;
+  font-size:1024%;
+background-color:aquamarine;
+text-align: center;
+}
+.win-x{
+  font-size: 52px;
+  padding: 40px;
+}
+.win-o{
+  font-size: 52px;
+  padding: 40px;
+  background-color:cadetblue;
+}
+.windeclare{
+  text-align: center;
+}
